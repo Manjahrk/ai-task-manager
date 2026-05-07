@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 // Axios base URL
 // Axios base URL
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://ai-task-manager-zrlo.onrender.com/api';
 
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
